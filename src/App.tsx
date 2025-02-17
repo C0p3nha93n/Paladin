@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Copy, Check } from 'lucide-react';
+import { Copy, Check, Twitter } from 'lucide-react';
 
 function App() {
   const [copied, setCopied] = useState(false);
@@ -79,6 +79,15 @@ function App() {
       >
         GET STARTED
       </a>
+      <a
+          href="https://x.com/PaladinOnSolana"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
+          title="Follow us on X (Twitter)"
+        >
+          <Twitter className="w-6 h-6" />
+        </a>
     </div>
   );
 }
