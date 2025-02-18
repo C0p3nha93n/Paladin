@@ -3,7 +3,7 @@ import { Copy, Check, Twitter } from 'lucide-react';
 
 function App() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "TO BE ANNOUNCED";
+  const contractAddress = "TBA";
 
   const handleCopy = async () => {
     try {
